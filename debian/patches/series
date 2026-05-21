@@ -38,3 +38,4 @@ add-sm-support.patch
 0036-upstream-don-t-allow-0-characters-in-url-encoded-str.patch
 0037-Add-more-username-validity-checks.patch
 uniontech-fix-duplicate-loginmsg.patch
+0038-upstream-Clear-setuid-setgid-bits-when-downloading-.patch

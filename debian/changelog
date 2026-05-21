@@ -1,3 +1,13 @@
+openssh (1:9.9p2-0deepin7) unstable; urgency=medium
+
+  * Apply patch from upstream:
+    - d/p/0038-upstream-Clear-setuid-setgid-bits-when-downloading-.patch
+      Clear setuid/setgid bits when downloading files via scp as root
+      in legacy (-O) mode without -p flag.
+      Fixes: CVE-2026-35385
+
+ -- deepin-ci-robot <packages@deepin.org>  Thu, 21 May 2026 15:40:00 +0800
+
 openssh (1:9.9p2-0deepin6) unstable; urgency=medium
 
   * fix duplicate output.
