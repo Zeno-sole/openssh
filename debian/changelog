@@ -1,3 +1,16 @@
+openssh (1:9.9p2-0deepin8) unstable; urgency=medium
+
+  * Security fixes:
+    - d/p/0039-upstream-CVE-2026-35388-mux-askpass.patch
+      Add missing ControlMaster ask/autoask check for proxy mode multiplexing
+      Fixes: CVE-2026-35388
+    - d/p/0040-upstream-CVE-2026-35387-35414-ecdsa-principals.patch
+      Correctly match ECDSA signature algorithms against algorithm allowlists;
+      fix authorized_keys principals option matching with comma characters
+      Fixes: CVE-2026-35387, CVE-2026-35414
+
+ -- deepin-ci-robot <packages@deepin.org>  Thu, 11 Jun 2026 13:54:58 +0800
+
 openssh (1:9.9p2-0deepin7) unstable; urgency=medium
 
   * Apply patch from upstream:
